@@ -1,0 +1,176 @@
+body {
+	padding:30px;
+	padding-bottom:50px;
+}
+body div.header {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:space-between ;
+	position:top;
+	top:0px;	
+	background-color:white;
+}
+
+div a img{
+	
+	width:150px;
+	height:100px;	
+}
+
+div.header button {
+
+	border-radius: 0.25em;
+	width: 100px;
+	height:30px;
+	background-color:#e5701a;
+	color:white;
+	border:#e5701a;
+	justify-content:flex-end;
+	margin-top:25px;
+	margin-right:25px;
+	
+}
+
+ul {
+	
+	display:flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content:space-between ;
+
+}
+
+ul li {
+	font-weight:bold;
+	padding:30px;
+	list-style:none;
+}
+
+ul li a {
+	color:black;
+	list-style:none;
+	text-decoration: none;
+}
+.hero {
+	background-image:url("../img/header-bike.jpg");
+	height:400px;
+	background-repeat:no-repeat;
+	background-size:110% 110%;
+	color:white;
+	display:flex;
+	flex-direction: column ;
+	justify-content:center;
+	padding-left:30px;
+	margin:10px;
+	
+}
+.btn1 {
+    font-size: 16px;
+    width: 12.5rem;
+    height: 50px;
+    padding: 10px;
+    border-radius:7px;
+    border:none;
+    cursor:pointer;
+    background-color:#e5701a ;
+    color: #fff;
+}
+.btn2 {
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius:7px;
+    border:none;
+    cursor:pointer;
+    background-color:#fff ;
+    color: #e5701a;
+}
+.alert{
+    height: 50px;
+    border: 1px solid wheat;
+    border-left: 4px solid #C05326;
+    background-color:  #F7EAE4;
+    padding: 15px;
+	margin:10px;
+	
+}
+.alert p{
+    transform: translateY(10px);
+    margin-left: 10px;
+}
+.text-highlight{
+    color: #C05326;
+    font-weight: bold;
+    font-size: 17px;
+}
+.content {
+	display:flex;
+	margin-left:40px;
+	padding:30px;
+	border-bottom:2px solid #e4e4e4;
+	
+}
+.main{
+    flex-grow: 7;
+}
+.sidebar{
+    flex-grow: 3;
+}
+.sidebar .article {
+	border:2px solid #e4e4e4;
+	margin:5px;
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+}
+div.article .article__thumbnail {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	height:100px;
+	width:150px;
+	margin:auto;
+	margin-left:15px;
+}
+.article__content {
+	padding:25px;
+	display:flex;
+	flex-direction:column;
+	
+}
+.heading-underline {
+	border-bottom:2px solid #C05326;
+	margin-bottom:10px;
+
+}
+.article__title-link {
+	text-decoration:none;
+	color:#C05326;
+	display:flex;
+	flex-direction:column;
+
+}
+div.sidebar a.facebook-link {
+	justify-content:flex-end;
+	display:flex;
+	color:#C05326;
+}
+div .article {
+	border:2px solid #e4e4e4;
+	margin:5px;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+}
+.learn_more {
+	display:flex;
+	flex-direction:row;
+	margin:5px;
+}
+span.arrow-right {
+	text-decoration:none;
+	
+}
+
